@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-deep-navy: #001F3F;
+  --color-electric-cyan: #0074D9;
+  --color-amber-gold: #F39C12;
+  --color-ice-white: #FFFFFF;
+  
+  --color-surface: #f7f9fb;
+  --color-surface-container: #eceef0;
+  --color-on-surface: #191c1e;
+  --color-on-surface-variant: #43474e;
+  
+  --font-display: var(--font-heebo);
+  --font-body: var(--font-inter);
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+@keyframes gridPos {
+  0% { background-position: 0px 0px; }
+  100% { background-position: 40px 40px; }
+}
+
+.animated-grid-bg {
+  position: absolute;
+  inset: 0;
+  background-size: 50px 50px;
+  background-image: linear-gradient(to right, rgba(0, 116, 217, 0.15) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(0, 116, 217, 0.15) 1px, transparent 1px);
+  animation: gridPos 4s linear infinite;
+  z-index: 0;
+  pointer-events: none;
+  mask-image: radial-gradient(ellipse at center, black 20%, transparent 100%);
+  -webkit-mask-image: radial-gradient(ellipse at center, black 20%, transparent 100%);
+}
