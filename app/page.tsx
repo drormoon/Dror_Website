@@ -24,11 +24,11 @@ export default function Home() {
             <a className="text-electric-cyan font-bold border-b-2 border-electric-cyan pb-1 transition-colors hover:text-electric-cyan" href="#home">דף הבית</a>
             <a className="hover:text-electric-cyan transition-colors" href="#services">שירותים</a>
             <a className="hover:text-electric-cyan transition-colors" href="#process">תהליך עבודה</a>
-            <a className="hover:text-electric-cyan transition-colors" href="#contact">צור קשר</a>
+            <a className="hover:text-electric-cyan transition-colors" href="#contact" onClick={(e) => { e.preventDefault(); document.getElementById('contact')?.scrollIntoView({behavior:'smooth'}); }}>צור קשר</a>
           </div>
-          <button className="bg-amber-gold text-deep-navy px-6 py-2 rounded font-bold hover:bg-opacity-90 transition-colors active:scale-95">
+          <a href="#contact" className="bg-amber-gold text-deep-navy px-6 py-2 rounded font-bold hover:bg-opacity-90 transition-colors active:scale-95">
             שיחת ייעוץ
-          </button>
+          </a>
         </div>
       </nav>
 
@@ -290,49 +290,27 @@ export default function Home() {
 
         {/* Contact Section */}
         <section id="contact" className="py-24 px-4 md:px-8 max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
-            <div>
-              <h2 className="font-display text-3xl md:text-4xl font-bold text-deep-navy mb-4">
-                מוכנים לקחת את הארגון קדימה?
-              </h2>
-              <p className="text-lg text-on-surface-variant leading-relaxed mb-8">
-                השאירו פרטים ונחזור אליכם בהקדם לתיאום שיחת היכרות ובחינת התאמה.
-              </p>
-              
-              <div className="space-y-6">
-                <div className="flex items-center gap-4 text-on-surface-variant">
-                  <div className="w-12 h-12 bg-electric-cyan/10 rounded-full flex items-center justify-center text-electric-cyan">
-                    <Mail className="w-5 h-5" />
-                  </div>
-                  <span className="font-medium text-lg">contact@drorpinder.com</span>
+          <div className="max-w-xl">
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-deep-navy mb-4">
+              מוכנים לקחת את הארגון קדימה?
+            </h2>
+            <p className="text-lg text-on-surface-variant leading-relaxed mb-8">
+              צרו קשר ונתאם שיחת היכרות.
+            </p>
+
+            <div className="space-y-6">
+              <div className="flex items-center gap-4 text-on-surface-variant">
+                <div className="w-12 h-12 bg-electric-cyan/10 rounded-full flex items-center justify-center text-electric-cyan">
+                  <Mail className="w-5 h-5" />
                 </div>
-                <div className="flex items-center gap-4 text-on-surface-variant">
-                  <div className="w-12 h-12 bg-electric-cyan/10 rounded-full flex items-center justify-center text-electric-cyan">
-                    <Phone className="w-5 h-5" />
-                  </div>
-                  <span className="font-medium text-lg">054-1234567</span>
-                </div>
+                <span className="font-medium text-lg">DRORMOON@gmail.com</span>
               </div>
-            </div>
-            
-            <div className="bg-ice-white p-8 rounded-xl border border-deep-navy/10 shadow-lg">
-              <form className="space-y-4">
-                <div>
-                  <label className="block text-sm font-medium text-deep-navy mb-1" htmlFor="name">שם מלא</label>
-                  <input id="name" type="text" className="w-full px-4 py-3 rounded-lg border border-deep-navy/20 focus:border-electric-cyan focus:ring-1 focus:ring-electric-cyan outline-none transition-all" placeholder="ישראל ישראלי" />
+              <div className="flex items-center gap-4 text-on-surface-variant">
+                <div className="w-12 h-12 bg-electric-cyan/10 rounded-full flex items-center justify-center text-electric-cyan">
+                  <Phone className="w-5 h-5" />
                 </div>
-                <div>
-                  <label className="block text-sm font-medium text-deep-navy mb-1" htmlFor="email">אימייל</label>
-                  <input id="email" type="email" className="w-full px-4 py-3 rounded-lg border border-deep-navy/20 focus:border-electric-cyan focus:ring-1 focus:ring-electric-cyan outline-none transition-all" placeholder="israel@company.com" />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-deep-navy mb-1" htmlFor="message">הודעה</label>
-                  <textarea id="message" rows={4} className="w-full px-4 py-3 rounded-lg border border-deep-navy/20 focus:border-electric-cyan focus:ring-1 focus:ring-electric-cyan outline-none transition-all resize-none" placeholder="ספר/י לי בקצרה על הצרכים שלכם..."></textarea>
-                </div>
-                <button type="submit" className="w-full bg-deep-navy text-white px-6 py-3 rounded-lg font-bold hover:bg-electric-cyan transition-colors mt-2 active:scale-95">
-                  שלח הודעה
-                </button>
-              </form>
+                <span className="font-medium text-lg">052-3296556</span>
+              </div>
             </div>
           </div>
         </section>
