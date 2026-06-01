@@ -18,7 +18,7 @@ export default function Home() {
       <nav className="fixed top-0 w-full z-50 bg-deep-navy/95 backdrop-blur-md border-b border-white/10">
         <div className="flex flex-row justify-between items-center px-4 md:px-8 py-4 max-w-7xl mx-auto">
           <a className="font-display text-2xl md:text-3xl font-extrabold text-white tracking-tight" href="#">
-            Dror Pinder
+            Dror Finder
           </a>
           <div className="hidden md:flex items-center gap-6 text-white/80 font-medium">
             <a className="text-electric-cyan font-bold border-b-2 border-electric-cyan pb-1 transition-colors hover:text-electric-cyan" href="#home">דף הבית</a>
@@ -64,7 +64,7 @@ export default function Home() {
             <div className="relative z-10 w-full aspect-[4/5] rounded-xl overflow-hidden shadow-2xl border border-white/20">
               <Image
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuDjQE0gge6VZKunyn8R9QnXV_-_ZOa2OZyhwZPENhuu15KCCJw9jY59dwZQ8OWTg7SoDr0gI8OG0vzboVnVrcI68gWEp_aicXKoFux7w2pwYweSvRTSmjGPgEWh70cdA-E61EXZypu3LrWhYUthHvyQF8WG1jq2xq5LeTqrFMqe50IFUEhwWfVz9a9gIOvic1vmJdyNo53H3CrV6JxFzyx9lh8ofmwXuPas8FDb2-C-lkn8eFnzkrhTfMPrdaW2ElI3ULA9nxa1U"
-                alt="Dror Pinder"
+                alt="Dror Finder"
                 fill
                 className="object-cover"
                 referrerPolicy="no-referrer"
@@ -341,7 +341,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-deep-navy text-white text-sm border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-10 flex flex-col md:flex-row-reverse justify-between items-center gap-6">
-          <div className="font-display font-medium text-amber-gold text-xl">Dror Pinder</div>
+          <div className="font-display font-medium text-amber-gold text-xl">Dror Finder</div>
           <div className="flex gap-6">
             <a href="#" className="text-white/60 hover:text-electric-cyan transition-colors">מדיניות פרטיות</a>
             <a href="#" className="text-white/60 hover:text-electric-cyan transition-colors">תנאי שימוש</a>
