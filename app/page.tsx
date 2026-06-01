@@ -18,17 +18,17 @@ export default function Home() {
       <nav className="fixed top-0 w-full z-50 bg-deep-navy/95 backdrop-blur-md border-b border-white/10">
         <div className="flex flex-row justify-between items-center px-4 md:px-8 py-4 max-w-7xl mx-auto">
           <a className="font-display text-2xl md:text-3xl font-extrabold text-white tracking-tight" href="#">
-            Dror Pinder
+            Dror Finder
           </a>
           <div className="hidden md:flex items-center gap-6 text-white/80 font-medium">
             <a className="text-electric-cyan font-bold border-b-2 border-electric-cyan pb-1 transition-colors hover:text-electric-cyan" href="#home">דף הבית</a>
             <a className="hover:text-electric-cyan transition-colors" href="#services">שירותים</a>
             <a className="hover:text-electric-cyan transition-colors" href="#process">תהליך עבודה</a>
-            <a className="hover:text-electric-cyan transition-colors" href="#contact">צור קשר</a>
+            <a className="hover:text-electric-cyan transition-colors" href="#contact" onClick={(e) => { e.preventDefault(); document.getElementById('contact')?.scrollIntoView({behavior:'smooth'}); }}>צור קשר</a>
           </div>
-          <button className="bg-amber-gold text-deep-navy px-6 py-2 rounded font-bold hover:bg-opacity-90 transition-colors active:scale-95">
+          <a href="#contact" className="bg-amber-gold text-deep-navy px-6 py-2 rounded font-bold hover:bg-opacity-90 transition-colors active:scale-95">
             שיחת ייעוץ
-          </button>
+          </a>
         </div>
       </nav>
 
@@ -64,7 +64,7 @@ export default function Home() {
             <div className="relative z-10 w-full aspect-[4/5] rounded-xl overflow-hidden shadow-2xl border border-white/20">
               <Image
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuDjQE0gge6VZKunyn8R9QnXV_-_ZOa2OZyhwZPENhuu15KCCJw9jY59dwZQ8OWTg7SoDr0gI8OG0vzboVnVrcI68gWEp_aicXKoFux7w2pwYweSvRTSmjGPgEWh70cdA-E61EXZypu3LrWhYUthHvyQF8WG1jq2xq5LeTqrFMqe50IFUEhwWfVz9a9gIOvic1vmJdyNo53H3CrV6JxFzyx9lh8ofmwXuPas8FDb2-C-lkn8eFnzkrhTfMPrdaW2ElI3ULA9nxa1U"
-                alt="Dror Pinder"
+                alt="Dror Finder"
                 fill
                 className="object-cover"
                 referrerPolicy="no-referrer"
@@ -290,49 +290,27 @@ export default function Home() {
 
         {/* Contact Section */}
         <section id="contact" className="py-24 px-4 md:px-8 max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
-            <div>
-              <h2 className="font-display text-3xl md:text-4xl font-bold text-deep-navy mb-4">
-                מוכנים לקחת את הארגון קדימה?
-              </h2>
-              <p className="text-lg text-on-surface-variant leading-relaxed mb-8">
-                השאירו פרטים ונחזור אליכם בהקדם לתיאום שיחת היכרות ובחינת התאמה.
-              </p>
-              
-              <div className="space-y-6">
-                <div className="flex items-center gap-4 text-on-surface-variant">
-                  <div className="w-12 h-12 bg-electric-cyan/10 rounded-full flex items-center justify-center text-electric-cyan">
-                    <Mail className="w-5 h-5" />
-                  </div>
-                  <span className="font-medium text-lg">contact@drorpinder.com</span>
+          <div className="max-w-xl">
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-deep-navy mb-4">
+              מוכנים לקחת את הארגון קדימה?
+            </h2>
+            <p className="text-lg text-on-surface-variant leading-relaxed mb-8">
+              צרו קשר ונתאם שיחת היכרות.
+            </p>
+
+            <div className="space-y-6">
+              <div className="flex items-center gap-4 text-on-surface-variant">
+                <div className="w-12 h-12 bg-electric-cyan/10 rounded-full flex items-center justify-center text-electric-cyan">
+                  <Mail className="w-5 h-5" />
                 </div>
-                <div className="flex items-center gap-4 text-on-surface-variant">
-                  <div className="w-12 h-12 bg-electric-cyan/10 rounded-full flex items-center justify-center text-electric-cyan">
-                    <Phone className="w-5 h-5" />
-                  </div>
-                  <span className="font-medium text-lg">054-1234567</span>
-                </div>
+                <span className="font-medium text-lg">DRORMOON@gmail.com</span>
               </div>
-            </div>
-            
-            <div className="bg-ice-white p-8 rounded-xl border border-deep-navy/10 shadow-lg">
-              <form className="space-y-4">
-                <div>
-                  <label className="block text-sm font-medium text-deep-navy mb-1" htmlFor="name">שם מלא</label>
-                  <input id="name" type="text" className="w-full px-4 py-3 rounded-lg border border-deep-navy/20 focus:border-electric-cyan focus:ring-1 focus:ring-electric-cyan outline-none transition-all" placeholder="ישראל ישראלי" />
+              <div className="flex items-center gap-4 text-on-surface-variant">
+                <div className="w-12 h-12 bg-electric-cyan/10 rounded-full flex items-center justify-center text-electric-cyan">
+                  <Phone className="w-5 h-5" />
                 </div>
-                <div>
-                  <label className="block text-sm font-medium text-deep-navy mb-1" htmlFor="email">אימייל</label>
-                  <input id="email" type="email" className="w-full px-4 py-3 rounded-lg border border-deep-navy/20 focus:border-electric-cyan focus:ring-1 focus:ring-electric-cyan outline-none transition-all" placeholder="israel@company.com" />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-deep-navy mb-1" htmlFor="message">הודעה</label>
-                  <textarea id="message" rows={4} className="w-full px-4 py-3 rounded-lg border border-deep-navy/20 focus:border-electric-cyan focus:ring-1 focus:ring-electric-cyan outline-none transition-all resize-none" placeholder="ספר/י לי בקצרה על הצרכים שלכם..."></textarea>
-                </div>
-                <button type="submit" className="w-full bg-deep-navy text-white px-6 py-3 rounded-lg font-bold hover:bg-electric-cyan transition-colors mt-2 active:scale-95">
-                  שלח הודעה
-                </button>
-              </form>
+                <span className="font-medium text-lg">052-3296556</span>
+              </div>
             </div>
           </div>
         </section>
@@ -341,7 +319,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-deep-navy text-white text-sm border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-10 flex flex-col md:flex-row-reverse justify-between items-center gap-6">
-          <div className="font-display font-medium text-amber-gold text-xl">Dror Pinder</div>
+          <div className="font-display font-medium text-amber-gold text-xl">Dror Finder</div>
           <div className="flex gap-6">
             <a href="#" className="text-white/60 hover:text-electric-cyan transition-colors">מדיניות פרטיות</a>
             <a href="#" className="text-white/60 hover:text-electric-cyan transition-colors">תנאי שימוש</a>
