@@ -24,7 +24,7 @@ export default function Home() {
             <a className="text-electric-cyan font-bold border-b-2 border-electric-cyan pb-1 transition-colors hover:text-electric-cyan" href="#home">דף הבית</a>
             <a className="hover:text-electric-cyan transition-colors" href="#services">שירותים</a>
             <a className="hover:text-electric-cyan transition-colors" href="#process">תהליך עבודה</a>
-            <a className="hover:text-electric-cyan transition-colors" href="#contact" onClick={(e) => { e.preventDefault(); document.getElementById('contact')?.scrollIntoView({behavior:'smooth'}); }}>צור קשר</a>
+            <a className="hover:text-electric-cyan transition-colors" href="#contact">צור קשר</a>
           </div>
           <a href="#contact" className="bg-amber-gold text-deep-navy px-6 py-2 rounded font-bold hover:bg-opacity-90 transition-colors active:scale-95">
             שיחת ייעוץ
