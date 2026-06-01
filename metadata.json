@@ -1,6 +1,6 @@
 {
-  "name": "Dror Pinder AI Expert",
-  "description": "Landing page and corporate website for Dror Pinder, AI Consulting Expert.",
+  "name": "Dror Finder AI Expert",
+  "description": "Landing page and corporate website for Dror Finder, AI Consulting Expert.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
