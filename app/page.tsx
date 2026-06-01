@@ -303,7 +303,7 @@ export default function Home() {
                 <div className="w-12 h-12 bg-electric-cyan/10 rounded-full flex items-center justify-center text-electric-cyan">
                   <Mail className="w-5 h-5" />
                 </div>
-                <span className="font-medium text-lg">DRORMOON@gmail.com</span>
+                <span className="font-medium text-lg">drormoon@gmail.com</span>
               </div>
               <div className="flex items-center gap-4 text-on-surface-variant">
                 <div className="w-12 h-12 bg-electric-cyan/10 rounded-full flex items-center justify-center text-electric-cyan">
@@ -321,9 +321,9 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-10 flex flex-col md:flex-row-reverse justify-between items-center gap-6">
           <div className="font-display font-medium text-amber-gold text-xl">Dror Finder</div>
           <div className="flex gap-6">
-            <a href="#" className="text-white/60 hover:text-electric-cyan transition-colors">מדיניות פרטיות</a>
-            <a href="#" className="text-white/60 hover:text-electric-cyan transition-colors">תנאי שימוש</a>
-            <a href="#" className="text-white/60 hover:text-electric-cyan transition-colors">לינקדאין</a>
+            <a href="/privacy" className="text-white/60 hover:text-electric-cyan transition-colors">מדיניות פרטיות</a>
+            <a href="/terms" className="text-white/60 hover:text-electric-cyan transition-colors">תנאי שימוש</a>
+            <a href="https://www.linkedin.com/in/dror-finder/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-electric-cyan transition-colors">לינקדאין</a>
           </div>
           <div className="text-white/60">
             © {new Date().getFullYear()} דרור פינדר - ייעוץ AI וניהול מוצר. כל הזכויות שמורות.
