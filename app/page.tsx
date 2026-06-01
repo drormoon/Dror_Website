@@ -49,12 +49,12 @@ export default function Home() {
               יעוץ, הטמעה וסדנאות GEN AI לכל שלב בתהליכי הפרויקט. 11 שנות ניסיון בעולם הטכנולוגיה, מ-Startups ועד Enterprise.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <button className="bg-deep-navy text-ice-white px-8 py-3 rounded-lg font-medium hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl">
+              <a href="#contact" className="bg-deep-navy text-ice-white px-8 py-3 rounded-lg font-medium hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl">
                 בואו נדבר
-              </button>
-              <button className="border-2 border-electric-cyan text-electric-cyan px-8 py-3 rounded-lg font-medium hover:bg-electric-cyan/5 transition-all">
+              </a>
+              <a href="#services" className="border-2 border-electric-cyan text-electric-cyan px-8 py-3 rounded-lg font-medium hover:bg-electric-cyan/5 transition-all">
                 סדנאות והרצאות
-              </button>
+              </a>
             </div>
           </div>
 
@@ -79,7 +79,7 @@ export default function Home() {
         <section className="bg-deep-navy py-12 border-y border-white/5">
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <h2 className="text-center text-sm text-white/50 uppercase tracking-widest font-bold mb-10">
-              ניסיון מהשטח — בחברות אמיתיות
+              לקוחות נבחרים
             </h2>
             <div className="flex flex-wrap justify-center items-center gap-12 md:gap-20 opacity-80 invert brightness-0">
               {/* Note: I am directly using next/image with specific dimensions setup, preserving ratio */}
@@ -145,7 +145,7 @@ export default function Home() {
                   </ul>
                 </div>
                 <div className="md:col-span-2 pt-4">
-                  <a href="#" className="inline-flex items-center gap-2 border border-electric-cyan text-electric-cyan hover:bg-electric-cyan hover:text-white transition-colors px-6 py-2.5 rounded-lg font-medium group-hover:bg-electric-cyan group-hover:text-white">
+                  <a href="#contact" className="inline-flex items-center gap-2 border border-electric-cyan text-electric-cyan hover:bg-electric-cyan hover:text-white transition-colors px-6 py-2.5 rounded-lg font-medium group-hover:bg-electric-cyan group-hover:text-white">
                     למידע נוסף
                     <ArrowLeft className="w-4 h-4" />
                   </a>
@@ -174,7 +174,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="pt-8">
-                <a href="#" className="inline-flex items-center gap-2 text-electric-cyan hover:text-deep-navy transition-colors font-medium">
+                <a href="#contact" className="inline-flex items-center gap-2 text-electric-cyan hover:text-deep-navy transition-colors font-medium">
                   קראו עוד
                   <ArrowLeft className="w-4 h-4" />
                 </a>
@@ -202,7 +202,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="pt-8">
-                <a href="#" className="inline-flex items-center gap-2 text-electric-cyan hover:text-deep-navy transition-colors font-medium">
+                <a href="#contact" className="inline-flex items-center gap-2 text-electric-cyan hover:text-deep-navy transition-colors font-medium">
                   קראו עוד
                   <ArrowLeft className="w-4 h-4" />
                 </a>
@@ -245,7 +245,7 @@ export default function Home() {
                   </ul>
                 </div>
                 <div className="md:col-span-2 pt-4">
-                  <a href="#" className="inline-flex items-center gap-2 bg-amber-gold text-deep-navy hover:bg-opacity-90 transition-opacity px-6 py-3 rounded-lg font-bold">
+                  <a href="#contact" className="inline-flex items-center gap-2 bg-amber-gold text-deep-navy hover:bg-opacity-90 transition-opacity px-6 py-3 rounded-lg font-bold">
                     הזמן סדנא
                     <CalendarDays className="w-4 h-4" />
                   </a>
