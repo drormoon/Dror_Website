@@ -43,10 +43,10 @@ export default function Home() {
               Expert AI Consulting
             </span>
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-extrabold text-deep-navy leading-tight">
-              בינה מלאכותית שעובדת בשבילכם — לא רק נשמעת טוב
+              GENERATIVE AI FOR SERIOUS AND MEASURABLE WORK
             </h1>
             <p className="text-lg md:text-xl text-on-surface-variant max-w-2xl leading-relaxed">
-              דרור פינדר — מומחה ויועץ AI לארגונים. הרצאות, סדנאות והטמעת Generative AI לניהול פרויקטים, ניהול מוצר ותהליכים ארגוניים. 11 שנות ניסיון בטכנולוגיה, מ-Startups ועד Enterprise.
+              דרור פינדר, מומחה ויועץ AI לארגונים. הרצאות, סדנאות והטמעת Generative AI לניהול פרויקטים, ניהול מוצר ותהליכים ארגוניים. 11 שנות ניסיון בטכנולוגיה, מ-Startups ועד Enterprise.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <a href="#contact" className="bg-deep-navy text-ice-white px-8 py-3 rounded-lg font-medium hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl">
@@ -106,7 +106,7 @@ export default function Home() {
               שירותי ייעוץ AI, הרצאות וסדנאות בינה מלאכותית לארגונים
             </h2>
             <p className="text-lg text-on-surface-variant leading-relaxed">
-              לא ייעוץ תיאורטי. לא מצגת ואז להתראות. הטמעה תהליכית של כלי AI בארגון שלכם — יחד, בקצב שמתאים לכם.
+              לא ייעוץ תיאורטי. לא מצגת ואז להתראות. הטמעה תהליכית של כלי AI בארגון שלכם, יחד, בקצב שמתאים לכם.
             </p>
           </div>
 
@@ -263,7 +263,7 @@ export default function Home() {
                 איך עובד תהליך הטמעת AI בארגון שלכם
               </h2>
               <p className="text-lg text-on-surface-variant max-w-2xl mx-auto">
-                מתודולוגיה ברורה להטמעת בינה מלאכותית — שלבים מוגדרים, יעדים מדידים, ותוצאות בשטח.
+                מתודולוגיה ברורה להטמעת בינה מלאכותית: שלבים מוגדרים, יעדים מדידים ותוצאות בשטח.
               </p>
             </div>
             
