@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://dror-finder.vercel.app';
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.drorfinder.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
