@@ -326,7 +326,7 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/dror-finder/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-electric-cyan transition-colors">לינקדאין</a>
           </div>
           <div className="text-white/60">
-            © {new Date().getFullYear()} דרור פינדר - ייעוץ AI וניהול מוצר. כל הזכויות שמורות.
+            © {new Date().getFullYear()} דרור פינדר - ייעוץ ניהול פרויקטי AI. כל הזכויות שמורות.
           </div>
         </div>
       </footer>
