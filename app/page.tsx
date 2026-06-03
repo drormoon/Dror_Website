@@ -43,10 +43,10 @@ export default function Home() {
               Expert AI Consulting
             </span>
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-extrabold text-deep-navy leading-tight">
-              GENERATIVE AI FOR SERIOUS AND MEASURABLE WORK
+              בינה מלאכותית שעובדת בשבילכם — לא רק נשמעת טוב
             </h1>
             <p className="text-lg md:text-xl text-on-surface-variant max-w-2xl leading-relaxed">
-              יעוץ, הטמעה וסדנאות GEN AI לכל שלב בתהליכי הפרויקט. 11 שנות ניסיון בעולם הטכנולוגיה, מ-Startups ועד Enterprise.
+              דרור פינדר — מומחה ויועץ AI לארגונים. הרצאות, סדנאות והטמעת Generative AI לניהול פרויקטים, ניהול מוצר ותהליכים ארגוניים. 11 שנות ניסיון בטכנולוגיה, מ-Startups ועד Enterprise.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <a href="#contact" className="bg-deep-navy text-ice-white px-8 py-3 rounded-lg font-medium hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl">
@@ -103,10 +103,10 @@ export default function Home() {
         <section id="services" className="py-24 px-4 md:px-8 max-w-7xl mx-auto">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="font-display text-3xl md:text-4xl font-bold text-deep-navy mb-4">
-              מה אני מציע — ואיך זה עובד בפועל
+              שירותי ייעוץ AI, הרצאות וסדנאות בינה מלאכותית לארגונים
             </h2>
             <p className="text-lg text-on-surface-variant leading-relaxed">
-              לא ייעוץ תיאורטי. לא מצגת ואז להתראות. הטמעה תהליכית, יחד איתכם, בקצב שמתאים לארגון שלכם.
+              לא ייעוץ תיאורטי. לא מצגת ואז להתראות. הטמעה תהליכית של כלי AI בארגון שלכם — יחד, בקצב שמתאים לכם.
             </p>
           </div>
 
@@ -260,10 +260,10 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 md:px-8">
             <div className="text-center mb-16">
               <h2 className="font-display text-3xl md:text-4xl font-bold text-deep-navy mb-4">
-                תהליך עבודה מדיד וברור
+                איך עובד תהליך הטמעת AI בארגון שלכם
               </h2>
               <p className="text-lg text-on-surface-variant max-w-2xl mx-auto">
-                הדרך שלנו להצלחה מבוססת על מתודולוגיה ברורה, שלבים מוגדרים ויעדים מדידים.
+                מתודולוגיה ברורה להטמעת בינה מלאכותית — שלבים מוגדרים, יעדים מדידים, ותוצאות בשטח.
               </p>
             </div>
             
@@ -292,10 +292,10 @@ export default function Home() {
         <section id="contact" className="py-24 px-4 md:px-8 max-w-7xl mx-auto">
           <div className="max-w-xl">
             <h2 className="font-display text-3xl md:text-4xl font-bold text-deep-navy mb-4">
-              מוכנים לקחת את הארגון קדימה?
+              צרו קשר עם יועץ ה-AI שלכם
             </h2>
             <p className="text-lg text-on-surface-variant leading-relaxed mb-8">
-              צרו קשר ונתאם שיחת היכרות.
+              מעוניינים בהרצאת AI לארגון, סדנה, או תהליך ייעוץ? נתאם שיחת היכרות ונבדוק התאמה.
             </p>
 
             <div className="space-y-6">
