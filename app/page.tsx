@@ -64,7 +64,7 @@ export default function Home() {
             <div className="relative z-10 w-full aspect-[4/5] rounded-xl overflow-hidden shadow-2xl border border-white/20">
               <Image
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuDjQE0gge6VZKunyn8R9QnXV_-_ZOa2OZyhwZPENhuu15KCCJw9jY59dwZQ8OWTg7SoDr0gI8OG0vzboVnVrcI68gWEp_aicXKoFux7w2pwYweSvRTSmjGPgEWh70cdA-E61EXZypu3LrWhYUthHvyQF8WG1jq2xq5LeTqrFMqe50IFUEhwWfVz9a9gIOvic1vmJdyNo53H3CrV6JxFzyx9lh8ofmwXuPas8FDb2-C-lkn8eFnzkrhTfMPrdaW2ElI3ULA9nxa1U"
-                alt="Dror Finder"
+                alt="דרור פינדר – מומחה ויועץ AI לארגונים, הרצאות וסדנאות בינה מלאכותית"
                 fill
                 className="object-cover"
                 referrerPolicy="no-referrer"
